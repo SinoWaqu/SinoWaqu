@@ -12,9 +12,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Build static site
+      - name: Prepare site
         run: |
-          cp -r "Virtual CV" _site
+          rm -rf _site
+          mkdir _site
+          cp -r "Virtual CV"/. _site/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
