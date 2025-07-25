@@ -1,9 +1,7 @@
-# .github/workflows/gh-pages.yml
-- name: Build with Jekyll
-  run: bundle exec jekyll build --source "Virtual CV" --destination "_site"
+## Hi there 👋
 
 <!--
-## Hi there 👋
+
 **SinoWaqu/SinoWaqu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
